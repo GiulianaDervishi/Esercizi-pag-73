@@ -1,4 +1,3 @@
-24.
 votoa = int(input("Voti del primo candidato: "))
 votob = int(input("Voti del secondo candidato: "))
 somma = votoa + votob
@@ -10,19 +9,6 @@ if votoa> votob:
     print("Il vincitorere è il primo candidato")
 else : 
     print("Ha vinto il secondo candidato")
-
-
-25.
-Nome1 = input(" Nome:")
-Punteggio1 = int(input("punteggio:"))
-Nome2 = input(" Nome:")
-Punteggio2 = int(input("punteggio:"))
-Nomi = [Nome1,Nome2]
-Nomi.sort()
-Punteggi =[Punteggio1, Punteggio2]
-Punteggi.sort()
-Punteggi.reverse()
-print(" Nomi in modo alfabetico", Nomi, " Punteggi in modo decrescente", Punteggi)
 
 
 26.
